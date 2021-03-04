@@ -1,0 +1,58 @@
+.heading {
+  color: #0e5399;
+
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  position: absolute;
+  margin: 0;
+}
+
+.section {
+  margin: auto;
+  width: 60%;
+  background-color: #8080803b;
+}
+
+.item {
+  display: flex;
+  padding: 0 20px 0 20px;
+  justify-content: space-between;
+}
+
+.numberfield {
+  height: 40px;
+  align-self: center;
+}
+
+#itemForCategory {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.button {
+  margin: 10px;
+  margin-left: 83%;
+  width: 75px;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.addCat {
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.addCategoryAction {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
